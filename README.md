@@ -40,7 +40,7 @@ Entre o nível 61 e 100, um pokémon ganhará a EXP normal (já que é apenas 1x
 
 O plugin afeta apenas batalhas.
 
-Como transformar a source em .jar (caso não souber como usar o Gradle)
+Como transformar a source em .jar
 -------------------------------------------
 
 - Tenha o Java Development Kit instalado em seu computador (talvez o Java Runtime Environment não seja suficiente);
