@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pixelexprates",
+  "name": "Pixelmon EXP Rates",
+  "description": "Feito por Arzio. Ideia original.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Arzio"],
+  "credits": "uwu",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
