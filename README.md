@@ -1,17 +1,54 @@
+PixelEXPRates
+==============================
+Faça os pokémons dos jogadores ganharem EXP adicional **nas batalhas** com base no nível do pokémon.
+É um conceito baseado em servidores de outros jogos, como Tibia.
+
+Os comandos são:
+- /rates - Visualiza as rates do servidor - Sem permissão necessária
+- /rates reload - Recarrega a config do plugin - Permissão `pixelexprates.reload`
+
+**Sinta-se livre para baixar, editar, republicar, redistribuir ou até mesmo vender uma edição deste plugin, não é necessário pedir permissão (basta ver a licença).**
+
+Como este plugin funciona?
 -------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+O plugin cria uma configuração na pasta `./config/` contendo os rates do servidor. Por padrão, por exemplo, pode ser que venha assim:
+```
+rates=[
+    {
+        expMultiplier=3.0
+        maxLevel=30
+        minLevel=1
+    },
+    {
+        expMultiplier=2.0
+        maxLevel=60
+        minLevel=31
+    },
+    {
+        expMultiplier=1.0
+        maxLevel=100
+        minLevel=61
+    }
+]
+```
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+Isso significa que entre o nível 1 e 30, um pokémon ganhará 3x a EXP normal **em batalhas**. 
 
-Source pack installation information:
+Entre o nível 31 a 60, um pokémon ganhará 2x a EXP normal **em batalhas**. 
 
-Standalone source installation
+Entre o nível 61 e 100, um pokémon ganhará a EXP normal (já que é apenas 1x) **em batalhas**.
+
+O plugin afeta apenas batalhas.
+
+Como transformar a source em .jar (fazer build) caso não souber como usar o Gradle
+==============================
+
+- Abra um terminal (CMD, por exemplo);
+- Navegue até a pasta raíz deste projeto (no Windows, usa-se o comando `cd`);
+- Execute `gradlew build` e aguarde a finalização;
+- Obtenha o arquivo .jar construído dentro da pasta `/build/libs/`
+
+Como instalar as sources para editá-lo (em inglês)
 ==============================
 
 See the Forge Documentation online for more detailed instructions:
@@ -48,15 +85,3 @@ If you do not care about seeing Minecraft's source code you can replace "setupDe
 
 Tip:
 When using Decomp workspace, the Minecraft source code is NOT added to your workspace in a editable way. Minecraft is treated like a normal Library. Sources are there for documentation and research purposes and usually can be accessed under the 'referenced libraries' section of your IDE.
-
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
-
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
-
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
