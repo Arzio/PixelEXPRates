@@ -7,7 +7,7 @@ Os comandos são:
 - /rates - Visualiza as rates do servidor - Sem permissão necessária
 - /rates reload - Recarrega a config do plugin - Permissão `pixelexprates.reload`
 
-**Sinta-se livre para baixar, editar, republicar, redistribuir ou até mesmo vender uma edição deste plugin, não é necessário pedir permissão (basta ver a licença).**
+**Eu não vou manter este plugin atualizado e não vou mais tocar nele, então sinta-se livre para baixar, editar, republicar, redistribuir ou até mesmo vender uma edição deste plugin, não é necessário pedir permissão (basta ver a licença).**
 
 Como este plugin funciona?
 -------------------------------------------
