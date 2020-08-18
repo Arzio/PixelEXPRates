@@ -47,7 +47,7 @@ Como transformar a source em .jar (caso não souber como usar o Gradle)
 - Coloque a .jar do Pixelmon dentro da pasta `/jar-dependencies/`
 - Abra um terminal (`cmd`, por exemplo);
 - Navegue **o terminal** até a pasta raíz deste projeto (no Windows, usa-se o comando `cd`);
-- Execute `gradlew build` e aguarde a finalização;
+- Execute neste terminal `gradlew build` e aguarde a finalização;
 - Obtenha o arquivo .jar construído dentro da pasta `/build/libs/`
 
 Como instalar as sources para editá-lo em sua IDE (em inglês)
