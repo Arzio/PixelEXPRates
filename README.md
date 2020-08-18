@@ -16,18 +16,18 @@ O plugin cria uma configuração na pasta `./config/` contendo os rates do servi
 rates=[
     {
         expMultiplier=3.0
-        maxLevel=30
         minLevel=1
+        maxLevel=30
     },
     {
         expMultiplier=2.0
-        maxLevel=60
         minLevel=31
+        maxLevel=60
     },
     {
         expMultiplier=1.0
-        maxLevel=100
         minLevel=61
+        maxLevel=100
     }
 ]
 ```
