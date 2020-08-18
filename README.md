@@ -49,7 +49,7 @@ Como transformar a source em .jar (caso não souber como usar o Gradle)
 - Execute `gradlew build` e aguarde a finalização;
 - Obtenha o arquivo .jar construído dentro da pasta `/build/libs/`
 
-Como instalar as sources para editá-lo (em inglês)
+Como instalar as sources para editá-lo em sua IDE (em inglês)
 -------------------------------------------
 
 See the Forge Documentation online for more detailed instructions:
