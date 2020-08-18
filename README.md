@@ -11,7 +11,7 @@ Os comandos são:
 
 Como este plugin funciona?
 -------------------------------------------
-O plugin cria uma configuração na pasta `./config/` contendo os rates do servidor. Por padrão, por exemplo, pode ser que venha assim:
+O plugin cria uma configuração na pasta `./config/` contendo os rates do servidor. Por exemplo, aqui está uma configuração:
 ```
 rates=[
     {
