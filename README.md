@@ -40,7 +40,7 @@ Entre o nível 61 e 100, um pokémon ganhará a EXP normal (já que é apenas 1x
 
 O plugin afeta apenas batalhas.
 
-Como transformar a source em .jar
+🔨 Como transformar a source em .jar
 -------------------------------------------
 
 - Tenha o Java Development Kit instalado em seu computador (talvez o Java Runtime Environment não seja suficiente);
@@ -50,7 +50,7 @@ Como transformar a source em .jar
 - Execute neste terminal `gradlew build` e aguarde a finalização;
 - Obtenha o arquivo .jar construído dentro da pasta `/build/libs/`
 
-Como instalar as sources para editá-lo em sua IDE (em inglês)
+💻 Como instalar as sources para editá-lo em sua IDE (em inglês)
 -------------------------------------------
 
 See the Forge Documentation online for more detailed instructions:
