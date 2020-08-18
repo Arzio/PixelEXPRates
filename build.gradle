@@ -68,7 +68,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    compile fileTree(dir: '../common-libs', include: '*.jar')
+    compile fileTree(dir: '/jar-dependencies', include: '*.jar')
     compile 'org.spongepowered:spongeapi:7.1.0'
 }
 

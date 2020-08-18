@@ -10,7 +10,8 @@
 !/README.md
 !build.gradle
 !.travis.yml
+!jar-dependencies/.gitkeep
 !/textures/
 !/gradle.properties
 !.gitattributes
-!ASSETS_LICENSE.txt
+!FORGE_LICENSE.txt
