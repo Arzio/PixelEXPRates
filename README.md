@@ -1,6 +1,6 @@
 PixelEXPRates
 ==============================
-Faça os pokémons de seus jogadores de Pixelmon ganharem EXP adicional **nas batalhas** com base no nível do pokémon usado.
+**É um Plugin Sponge**. Faça os pokémons de seus jogadores de Pixelmon ganharem EXP adicional **nas batalhas** com base no nível do pokémon usado.
 É um conceito baseado em servidores de outros jogos, como Tibia.
 
 Os comandos são:
